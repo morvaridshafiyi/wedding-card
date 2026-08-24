@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f5ebe0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>دعوتنامه · Morvarid & Dariush</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&family=Vazirmatn:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="assets/gates.jpg" as="image" />
+    <link rel="preload" href="assets/couple-stamp.jpg" as="image" />
+    <link rel="preload" href="assets/invitation-bg.jpg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="invitation" aria-hidden="true">
+        <div class="invitation__photo-bg" aria-hidden="true"></div>
+        <div class="pearls" aria-hidden="true">
+          <span class="pearl pearl--1"></span>
+          <span class="pearl pearl--2"></span>
+          <span class="pearl pearl--3"></span>
+          <span class="pearl pearl--4"></span>
+          <span class="pearl pearl--5"></span>
+          <span class="pearl pearl--6"></span>
+          <span class="pearl pearl--7"></span>
+          <span class="pearl pearl--8"></span>
+          <span class="pearl pearl--9"></span>
+          <span class="pearl pearl--10"></span>
+        </div>
+        <div class="invitation__body">
+          <div class="invitation__inner">
+            <div class="invitation__names" aria-label="Morvarid and Dariush">
+              <span class="invitation__name">Morvarid</span>
+              <span class="invitation__and">&</span>
+              <span class="invitation__name">Dariush</span>
+            </div>
+
+            <p class="invitation__message">
+              کنارمان باشید، در شبی که تمامِ فرداهای ما از آن آغاز می‌شود
+            </p>
+
+            <div class="invitation__date-row" dir="ltr">
+              <span class="invitation__weekday">Thusday</span>
+              <div class="invitation__date-badge">
+                <span class="invitation__date-day">23</span>
+                <span class="invitation__date-meta">Mehr</span>
+                <span class="invitation__date-meta-date">1405</span>
+              </div>
+              <span class="invitation__time">18:00</span>
+            </div>
+
+            <div class="invitation__where">
+              <p class="invitation__venue">عمارت رزا</p>
+            </div>
+
+            <p class="invitation__rsvp">
+              در صورت عدم امکان حضور، لطفا ما را مطلع کنید
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="gates"
+        id="gates"
+        role="button"
+        aria-label="برای باز کردن دعوتنامه لمس کنید"
+        tabindex="0"
+      >
+        <div class="gates__stage">
+          <div class="gate gate--left">
+            <div class="gate__panel"></div>
+            <div class="stamp">
+              <div class="stamp__ring">
+                <img class="stamp__photo" src="assets/couple-stamp.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="gate gate--right">
+            <div class="gate__panel"></div>
+          </div>
+        </div>
+        <div class="gate__seam"></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
