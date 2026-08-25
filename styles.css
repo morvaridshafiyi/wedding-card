@@ -410,7 +410,6 @@ body {
 }
 
 .invitation__where {
-  margin-top: clamp(0.5rem, 1.8vh, 1.2rem);
   flex-shrink: 0;
 }
 
