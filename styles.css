@@ -299,7 +299,6 @@ body {
   letter-spacing: 0;
   color: #6e5d4f;
   margin-bottom: clamp(0.5rem, 1.8vh, 1.2rem);
-  padding: 0 0.5rem;
   flex-shrink: 0;
 }
 
