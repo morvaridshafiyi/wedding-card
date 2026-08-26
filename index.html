@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
@@ -10,21 +10,19 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>دعوتنامه · Morvarid & Dariush</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&family=Vazirmatn:wght@200;300;400&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preload" href="assets/gates.jpg" as="image" />
     <link rel="preload" href="assets/couple-stamp.jpg" as="image" />
-    <link rel="preload" href="assets/invitation-bg.jpg" as="image" />
+    <link rel="preload" href="assets/invitation-card.png" as="image" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="app">
       <section class="invitation" aria-hidden="true">
-        <div class="invitation__photo-bg" aria-hidden="true"></div>
+        <img
+          class="invitation__card"
+          src="assets/invitation-card.png"
+          alt="دعوتنامه عروسی مروارید و داریوش"
+        />
         <div class="pearls" aria-hidden="true">
           <span class="pearl pearl--1"></span>
           <span class="pearl pearl--2"></span>
@@ -36,35 +34,6 @@
           <span class="pearl pearl--8"></span>
           <span class="pearl pearl--9"></span>
           <span class="pearl pearl--10"></span>
-        </div>
-        <div class="invitation__body">
-          <div class="invitation__inner">
-            <div class="invitation__names" aria-label="Morvarid and Dariush">
-              <span class="invitation__name">Morvarid</span>
-              <span class="invitation__and">&</span>
-              <span class="invitation__name">Dariush</span>
-            </div>
-
-            <p class="invitation__message">
-              کنارمان باشید، در شبی که تمامِ فرداهای ما از آن آغاز می‌شود
-            </p>
-
-            <div class="invitation__date-row" dir="ltr">
-              <span class="invitation__weekday">عمارت رزا</span>
-              <div class="invitation__date-badge">
-                <span class="invitation__date-day">23</span>
-                <span class="invitation__date-meta">مهر</span>
-                <span class="invitation__date-meta-date">1405</span>
-              </div>
-              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                <span>پنجشنبه</span>
-                <span class="invitation__time">18:00 </span>
-              </div>
-            </div>
-            <p class="invitation__rsvp">
-              مشتاق دیدارتان هستیم؛ اگر فرصت حضور نبود، لطفاً ما را مطلع کنید.
-            </p>
-          </div>
         </div>
       </section>
 
