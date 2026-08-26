@@ -272,7 +272,7 @@ body {
   align-items: center;
   gap: 0;
   flex-shrink: 0;
-  margin-bottom: clamp(0.45rem, 1.8vh, 1.2rem);
+  margin-bottom: clamp(0.15rem, 1.5vh, 1rem);
 }
 
 .invitation__name {
