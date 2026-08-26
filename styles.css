@@ -272,7 +272,7 @@ body {
   align-items: center;
   gap: 0;
   flex-shrink: 0;
-  margin-bottom: clamp(0.15rem, 1.5vh, 1rem);
+  margin-bottom: clamp(0.15rem, 1vh, 1rem);
 }
 
 .invitation__name {
@@ -314,8 +314,8 @@ body {
 
 .invitation__weekday,
 .invitation__time {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
   letter-spacing: 0;
   color: #7a6a5c;
   line-height: 1.4;
@@ -385,7 +385,7 @@ body {
   position: relative;
   z-index: 1;
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   color: #8a7360;
